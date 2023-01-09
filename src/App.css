@@ -1,0 +1,176 @@
+.App {
+  height: 100vh;
+  background: #232323;
+  text-align: left;
+}
+
+.flex-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.App-header {
+  line-height: 49px;
+  height: 50px;
+  font-size: 14px;
+  color: #F5F5F5;
+  position: relative;
+  padding: 0 24px;
+  background: #1F1F1F;
+}
+
+.App-header-left {
+  flex: 1;
+}
+
+.App-main {
+  padding: 12px;
+  height: calc(100vh - 50px);
+  box-sizing: border-box;
+}
+
+.App-main-content {
+  padding: 30px 36px 0 36px;
+  height: calc(100vh - 50px - 24px);
+  box-sizing: border-box;
+  background: #313131;
+}
+
+.actionButton {
+  padding: 4px 30px;
+}
+
+.gray {
+  background-color: #535353;
+  border-color: #535353;
+  color: #D9D9D9;
+}
+
+.gray:hover,
+.gray:focus,
+.gray:active {
+  background-color: #636363 !important;
+  border-color: #636363 !important;
+  color: #D9D9D9 !important;
+}
+
+.custom-rds {
+  border-radius: 2px;
+}
+
+.App-main-content .ant-table {
+  border-radius: 4px 4px 0 0;
+  color: #D7D7D7 !important;
+  background: #313131 !important;
+}
+
+.ant-table-thead > tr > th {
+  color: #F5F5F5 !important;
+  font-weight: bolder !important;
+  background: #262626 !important;
+  font-size: 15px;
+}
+
+.ant-table-thead > tr > th::before {
+  width: 0 !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid #434343 !important;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  background: #1F1F1F !important;
+}
+
+.ant-table-tbody > tr.ant-table-placeholder:hover > td {
+  background: #313131 !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+  background: #313131 !important;
+  border-color: #434343 !important;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  /* 滚动条的宽度 */
+  width: 10px;
+  height: 10px;
+}
+
+.ant-table-body::-webkit-scrollbar-track-piece {
+  /* 滚动条凹槽的颜色，还可以设置边框属性 */
+  background: #262626;
+  box-shadow: 0px 1px 1px 0px #1F1F1F;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb {
+  /* 滚动条的设置 */
+  background: #414141;
+  box-shadow: 0px 1px 1px 0px #595959;
+  border-radius: 2em;
+}
+
+.ant-table-body::-webkit-scrollbar-thumb:hover {
+  background: #414141;
+}
+
+.ant-table-wrapper .ant-table:not(.ant-table-bordered) .ant-table-tbody >tr >td {
+  border-top: none;
+}
+
+.ant-table-wrapper .ant-table .ant-table-header,
+.ant-table-wrapper .ant-table .ant-table-title,
+.ant-table-wrapper table {
+  border-radius: 4px 4px 0 0;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:first-child {
+  border-start-start-radius: 4px;
+}
+
+.ant-table-wrapper .ant-table-container table>thead>tr:first-child >*:last-child {
+  border-start-end-radius: 4px;
+}
+
+.ant-table-wrapper .ant-table:not(.ant-table-bordered) .ant-table-tbody>tr.ant-table-row:hover>td:first-child, 
+.ant-table-wrapper .ant-table:not(.ant-table-bordered) .ant-table-tbody>tr >td.ant-table-cell-row-hover:first-child, 
+.ant-table-wrapper .ant-table:not(.ant-table-bordered) .ant-table-tbody>tr.ant-table-row.ant-table-row-selected>td:first-child {
+  border-start-start-radius: 4px;
+  border-end-start-radius: 4px;
+}
+
+.ant-table-wrapper .ant-table-cell-scrollbar:not([rowspan]) {
+  box-shadow: none;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th, 
+.ant-table-wrapper .ant-table-thead >tr>td {
+  background: #262626 !important;
+  /* border-bottom: 1px solid #434343 !important; */
+  border-bottom: none;
+}
+
+.ant-input {
+  background: #141414;
+  color: #D7D7D7;
+  border-color: #434343;
+  border-radius: 4px;
+}
+
+.ant-empty-normal {
+  color: #F5F5F5;
+}
+
+.ant-btn-primary:disabled {
+  box-shadow: none;
+  background-color: #636363 !important;
+  border-color: #636363 !important;
+  color: #D9D9D9 !important;
+}
+
+.editable-cell-value-wrap {
+  padding: 5px 12px;
+  cursor: pointer;
+}
