@@ -228,8 +228,7 @@ function App() {
             type="primary"
             onClick={() => dosave(dataSource)}
             loading={btnLoading1}
-            // disabled={dataSource.length === 0}
-            disabled={true}
+            disabled={dataSource.length === 0}
           >保 存</Button>
           <Button
             className="custom-rds"
